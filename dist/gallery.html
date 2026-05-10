@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ============ SEO META TAGS ============ -->
+    <title data-i18n="title">معرض الأعمال | أحمد جبس بورد للديكور | مشاريع سابقة</title>
+    <meta name="description" content="معرض أعمال أحمد جبس بورد للديكور - تصفح أحدث مشاريع الأسقف الجبسية، ديكورات الجدران، وإضاءة LED المعمارية في المملكة العربية السعودية.">
+    <meta name="keywords" content="معرض أعمال, جبس بورد, ديكور, مشاريع, أسقف جبسية, ديكورات جدران, إضاءة LED, الرياض, السعودية">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.ahmedgypsum.com/gallery">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.ahmedgypsum.com/gallery">
+    <meta property="og:title" content="معرض الأعمال | أحمد جبس بورد للديكور">
+    <meta property="og:description" content="شاهد أجمل مشاريعنا في الأسقف الجبسية والديكورات الداخلية الفاخرة.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=1200&h=630&fit=crop">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:site_name" content="أحمد جبس بورد للديكور">
+    <meta property="og:locale" content="ar_SA">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="معرض الأعمال | أحمد جبس بورد للديكور">
+    <meta name="twitter:description" content="شاهد أجمل مشاريعنا في الأسقف الجبسية والديكورات الداخلية الفاخرة.">
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=1200&h=630&fit=crop">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏛️</text></svg>">
+    <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏛️</text></svg>">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "CollectionPage",
+            "name": "معرض أعمال أحمد جبس بورد للديكور",
+            "description": "مجموعة من أحدث مشاريعنا في الأسقف الجبسية والديكورات الداخلية.",
+            "url": "https://www.ahmedgypsum.com/gallery",
+            "provider": {
+                "@type": "HomeAndConstructionBusiness",
+                "name": "أحمد جبس بورد للديكور"
+            }
+        }
+    </script>
+
+    <!-- Tailwind CSS -->
+    <link rel="stylesheet" href="output.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <style>
+        [dir="rtl"] .space-x-4>:not([hidden])~:not([hidden]) { --tw-space-x-reverse: 1; }
+        [dir="rtl"] .space-x-8>:not([hidden])~:not([hidden]) { --tw-space-x-reverse: 1; }
+        [dir="rtl"] .ml-2 { margin-left: 0; margin-right: 0.5rem; }
+        [dir="rtl"] .mr-2 { margin-right: 0; margin-left: 0.5rem; }
+        [dir="rtl"] .left-1\/2 { left: auto; right: 50%; }
+        [dir="rtl"] .-translate-x-1\/2 { --tw-translate-x: 50%; }
+        [dir="rtl"] .right-8 { right: auto; left: 2rem; }
+        [dir="rtl"] .left-10 { left: auto; right: 2.5rem; }
+        [dir="rtl"] .right-10 { right: auto; left: 2.5rem; }
+        [dir="rtl"] .right-0 { right: auto; left: 0; }
+        [dir="rtl"] .translate-x-full { --tw-translate-x: 100%; }
+        [dir="rtl"] .-translate-x-full { --tw-translate-x: -100%; }
+
+        .sidebar { transform: translateX(100%); transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1); }
+        [dir="rtl"] .sidebar { transform: translateX(-100%); }
+        .sidebar.open { transform: translateX(0); }
+        body.menu-open { overflow: hidden; }
+
+        [dir="rtl"] body { font-family: 'Cairo', sans-serif; }
+        [dir="rtl"] .font-playfair { font-family: 'Playfair Display', serif; }
+
+        body.translating [data-i18n] { opacity: 0; transition: opacity 0.2s ease; }
+        [data-i18n] { transition: opacity 0.3s ease; }
+
+        .skip-link {
+            position: absolute; top: -100px; left: 50%; transform: translateX(-50%);
+            z-index: 100; background: #f59e0b; color: #000; padding: 8px 16px;
+            border-radius: 0 0 8px 8px; font-weight: bold; transition: top 0.3s ease;
+        }
+        .skip-link:focus { top: 0; }
+
+        /* Gallery grid */
+        .gallery-item {
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            cursor: pointer;
+        }
+        .gallery-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px -15px rgba(245, 158, 11, 0.3);
+        }
+        .gallery-item img {
+            transition: transform 0.5s ease;
+        }
+        .gallery-item:hover img {
+            transform: scale(1.05);
+        }
+
+        /* Lightbox */
+        .lightbox {
+            display: none;
+            position: fixed;
+            inset: 0;
+            z-index: 100;
+            background: rgba(15, 23, 42, 0.95);
+            backdrop-filter: blur(10px);
+            justify-content: center;
+            align-items: center;
+        }
+        .lightbox.open {
+            display: flex;
+        }
+        .lightbox-img {
+            max-width: 90vw;
+            max-height: 85vh;
+            object-fit: contain;
+            border-radius: 16px;
+            box-shadow: 0 25px 50px rgba(0,0,0,0.5);
+            transition: transform 0.3s ease;
+        }
+        .lightbox-nav {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(255,255,255,0.1);
+            border: 1px solid rgba(255,255,255,0.2);
+            color: white;
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            font-size: 1.5rem;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(5px);
+            z-index: 10;
+        }
+        .lightbox-nav:hover {
+            background: #f59e0b;
+            border-color: #f59e0b;
+            box-shadow: 0 0 20px rgba(245, 158, 11, 0.5);
+        }
+        .lightbox-prev { left: 20px; }
+        .lightbox-next { right: 20px; }
+        [dir="rtl"] .lightbox-prev { left: auto; right: 20px; }
+        [dir="rtl"] .lightbox-next { right: auto; left: 20px; }
+
+        .lightbox-close {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: rgba(255,255,255,0.1);
+            border: 1px solid rgba(255,255,255,0.2);
+            color: white;
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            font-size: 1.25rem;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(5px);
+            z-index: 10;
+        }
+        .lightbox-close:hover {
+            background: #ef4444;
+            border-color: #ef4444;
+        }
+        [dir="rtl"] .lightbox-close { left: 20px; right: auto; }
+
+        .lightbox-counter {
+            position: absolute;
+            bottom: 25px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: #fff;
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(5px);
+            padding: 6px 18px;
+            border-radius: 30px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            letter-spacing: 1px;
+        }
+        body.lightbox-open { overflow: hidden; }
+
+        @media print {
+            .sidebar, #menuOverlay, .fixed, #langToggle, #menuBtn, #sidebar { display: none !important; }
+            body { background: white !important; color: black !important; }
+        }
+    </style>
+</head>
+<body class="bg-white">
+
+    <!-- Skip Link -->
+    <a href="#main-content" class="skip-link">تخطي إلى المحتوى الرئيسي</a>
+
+    <!-- ==================== HEADER ==================== -->
+    <header id="navbar" class="fixed w-full z-40 transition-all duration-300 backdrop-blur-lg bg-white/80 shadow-lg" role="banner">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <a href="index.html" class="font-playfair text-2xl lg:text-3xl font-bold text-slate-900 hover:opacity-90 transition-opacity">
+                    Ahmed<span class="text-amber-500">Gypsum</span>
+                </a>
+
+                <nav class="hidden lg:flex items-center gap-6" aria-label="الرئيسية">
+                    <a href="index.html" class="text-slate-900 hover:text-amber-500 font-medium transition-colors" data-i18n="nav-home">الرئيسية</a>
+                    <a href="about.html" class="text-slate-900 hover:text-amber-500 font-medium transition-colors" data-i18n="nav-about">من نحن</a>
+                    <a href="services.html" class="text-slate-900 hover:text-amber-500 font-medium transition-colors" data-i18n="nav-services">خدماتنا</a>
+                    <a href="gallery.html" class="text-amber-500 font-semibold border-b-2 border-amber-500 pb-1" aria-current="page" data-i18n="nav-gallery">معرض الأعمال</a>
+                    <a href="contact.html" class="text-slate-900 hover:text-amber-500 font-medium transition-colors" data-i18n="nav-contact">اتصل بنا</a>
+                </nav>
+
+                <div class="flex items-center gap-3">
+                    <button id="langToggle" class="px-4 py-2 rounded-full bg-gray-100 text-sm font-bold text-slate-900 hover:bg-amber-500 hover:text-white transition-all duration-300">
+                        English
+                    </button>
+                    <button id="menuBtn" class="p-2 text-slate-900 hover:text-amber-500 transition-colors rounded-lg hover:bg-gray-100 lg:hidden" aria-label="فتح القائمة">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ==================== SIDEBAR ==================== -->
+    <div id="menuOverlay" class="fixed inset-0 bg-black/50 z-40 hidden transition-opacity duration-300" aria-hidden="true"></div>
+    <div id="sidebar" class="sidebar fixed top-0 right-0 h-full w-80 max-w-[85vw] bg-white shadow-2xl z-50 flex flex-col" role="dialog" aria-modal="true" aria-label="القائمة الجانبية">
+        <div class="flex justify-between items-center p-6 border-b border-gray-200">
+            <span class="font-playfair text-2xl font-bold text-slate-900" data-i18n="menu-title">القائمة</span>
+            <button id="closeMenu" class="text-slate-900 hover:text-amber-500 transition-colors p-2 rounded-lg hover:bg-gray-100" aria-label="إغلاق القائمة">
+                <i class="fas fa-times text-2xl"></i>
+            </button>
+        </div>
+        <nav class="flex-1 p-6 space-y-2">
+            <a href="index.html" class="block px-4 py-3 rounded-xl text-slate-900 hover:bg-amber-500/10 font-medium text-lg" data-i18n="nav-home">الرئيسية</a>
+            <a href="about.html" class="block px-4 py-3 rounded-xl text-slate-900 hover:bg-amber-500/10 font-medium text-lg" data-i18n="nav-about">من نحن</a>
+            <a href="services.html" class="block px-4 py-3 rounded-xl text-slate-900 hover:bg-amber-500/10 font-medium text-lg" data-i18n="nav-services">خدماتنا</a>
+            <a href="gallery.html" class="block px-4 py-3 rounded-xl text-amber-500 bg-amber-500/10 font-semibold text-lg" aria-current="page" data-i18n="nav-gallery">معرض الأعمال</a>
+            <a href="contact.html" class="block px-4 py-3 rounded-xl text-slate-900 hover:bg-amber-500/10 font-medium text-lg" data-i18n="nav-contact">اتصل بنا</a>
+        </nav>
+    </div>
+
+    <!-- ==================== MAIN CONTENT ==================== -->
+    <main id="main-content">
+
+        <!-- ==================== PAGE HERO ==================== -->
+        <section class="relative pt-32 pb-20 overflow-hidden" aria-labelledby="gallery-hero-heading">
+            <div class="absolute inset-0 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
+                <div class="absolute inset-0 opacity-15">
+                    <div class="absolute top-10 right-10 w-80 h-80 bg-amber-500 rounded-full blur-3xl animate-float"></div>
+                    <div class="absolute bottom-10 left-10 w-64 h-64 bg-amber-500 rounded-full blur-3xl animate-float" style="animation-delay: 3s;"></div>
+                </div>
+            </div>
+            <div class="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20" style="background-image: url('https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=1920&q=80');" role="img" aria-label="مشاريع جبسية"></div>
+
+            <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <div class="inline-flex items-center px-4 py-2 bg-amber-500/20 backdrop-blur-sm rounded-full border border-amber-500/30 mb-6" data-aos="fade-down" data-aos-duration="800">
+                    <span class="w-2 h-2 bg-amber-500 rounded-full animate-pulse mr-2"></span>
+                    <span class="text-amber-400 text-sm font-medium" data-i18n="hero-badge">أحدث مشاريعنا</span>
+                </div>
+
+                <h1 id="gallery-hero-heading" class="font-playfair text-4xl lg:text-6xl font-bold text-white mb-6" data-aos="fade-up" data-aos-duration="800">
+                    <span data-i18n="hero-title1">معرض</span>
+                    <span class="text-amber-500" data-i18n="hero-title2">الأعمال</span>
+                </h1>
+
+                <p class="text-lg sm:text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200" data-i18n="hero-desc">
+                    تصفح مجموعة مختارة من أجمل مشاريعنا في الأسقف الجبسية، ديكورات الجدران، وتكامل الإضاءة. كل صورة تحكي قصة إبداع.
+                </p>
+
+                <div class="flex justify-center gap-4 mt-8" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
+                    <span class="text-gray-400 flex items-center gap-1"><i class="fas fa-home text-amber-500"></i> <span data-i18n="breadcrumb-home">الرئيسية</span></span>
+                    <span class="text-gray-500">/</span>
+                    <span class="text-amber-500 font-semibold" data-i18n="breadcrumb-current">معرض الأعمال</span>
+                </div>
+            </div>
+
+            <div class="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-white to-transparent"></div>
+        </section>
+
+        <!-- ==================== GALLERY SECTION ==================== -->
+        <section class="py-16 md:py-24 bg-white" aria-labelledby="gallery-heading">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-10 md:mb-14">
+                    <span class="text-amber-500 font-semibold text-sm uppercase tracking-widest" data-i18n="gallery-label">إبداعاتنا</span>
+                    <h2 id="gallery-heading" class="font-playfair text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 mt-4 mb-6" data-i18n="gallery-title">مشاريع مختارة</h2>
+                </div>
+
+                <!-- Filter buttons -->
+                <div class="flex flex-wrap justify-center gap-3 mb-10" id="filterButtons">
+                    <button data-filter="all" class="filter-btn active px-5 py-2.5 rounded-full bg-amber-500 text-white font-semibold text-sm shadow-md shadow-amber-500/20 transition-all duration-300 hover:bg-amber-600" data-i18n="filter-all">الكل</button>
+                    <button data-filter="gypsum" class="filter-btn px-5 py-2.5 rounded-full bg-gray-100 text-slate-700 font-semibold text-sm hover:bg-amber-500 hover:text-white transition-all duration-300" data-i18n="filter-gypsum">أسقف جبسية</button>
+                    <button data-filter="walls" class="filter-btn px-5 py-2.5 rounded-full bg-gray-100 text-slate-700 font-semibold text-sm hover:bg-amber-500 hover:text-white transition-all duration-300" data-i18n="filter-walls">ديكورات جدران</button>
+                    <button data-filter="lighting" class="filter-btn px-5 py-2.5 rounded-full bg-gray-100 text-slate-700 font-semibold text-sm hover:bg-amber-500 hover:text-white transition-all duration-300" data-i18n="filter-lighting">إضاءة LED</button>
+                </div>
+
+                <!-- Gallery grid -->
+                <div id="galleryGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+                    <!-- Gallery items will be inserted via JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== CTA SECTION ==================== -->
+        <section class="relative py-16 md:py-24 overflow-hidden" aria-labelledby="cta-heading">
+            <div class="absolute inset-0 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900"></div>
+            <div class="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-15" style="background-image: url('https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=1920&q=80');" role="img" aria-label="ديكور داخلي فاخر"></div>
+
+            <div class="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h2 id="cta-heading" class="font-playfair text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6" data-aos="fade-up" data-aos-duration="800" data-i18n="cta-title">هل أعجبتك مشاريعنا؟</h2>
+                <p class="text-lg sm:text-xl text-gray-300 mb-10 max-w-2xl mx-auto" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200" data-i18n="cta-desc">دعنا ننفذ مشروعك القادم بنفس الجودة والإبداع. تواصل معنا الآن لاستشارة مجانية.</p>
+                <div class="flex flex-wrap justify-center gap-4" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
+                    <a href="contact.html" class="group bg-gradient-to-r from-amber-500 to-amber-600 text-white px-8 py-4 rounded-full font-semibold text-lg hover:shadow-2xl hover:shadow-amber-500/30 transform hover:-translate-y-1 transition-all duration-300 inline-flex items-center">
+                        <span data-i18n="cta-btn1">اطلب تصميمك</span>
+                        <i class="fas fa-arrow-left mr-2 group-hover:translate-x-2 transition-transform"></i>
+                    </a>
+                    <a href="tel:+966533659000" class="backdrop-blur-sm bg-white/10 text-white px-8 py-4 rounded-full font-semibold text-lg border-2 border-white/30 hover:bg-white/20 transform hover:-translate-y-1 transition-all duration-300 inline-flex items-center gap-2">
+                        <i class="fas fa-phone"></i>
+                        <span data-i18n="cta-btn2">اتصل بنا</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="bg-slate-900 text-white pt-16 pb-8" role="contentinfo">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 md:gap-12 mb-12">
+                <div>
+                    <div class="font-playfair text-3xl font-bold mb-4">Ahmed<span class="text-amber-500">Gypsum</span></div>
+                    <p class="text-gray-400 mb-6" data-i18n="footer-tagline">تصميم داخلي وديكور فاخر</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-amber-500 transition-colors p-2 hover:bg-white/5 rounded-full"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-amber-500 transition-colors p-2 hover:bg-white/5 rounded-full"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-amber-500 transition-colors p-2 hover:bg-white/5 rounded-full"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-amber-500 transition-colors p-2 hover:bg-white/5 rounded-full"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-bold text-lg mb-6 text-amber-500" data-i18n="footer-quick-links">روابط سريعة</h3>
+                    <ul class="space-y-3">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white transition-colors" data-i18n="footer-home">الرئيسية</a></li>
+                        <li><a href="about.html" class="text-gray-400 hover:text-white transition-colors" data-i18n="footer-about">من نحن</a></li>
+                        <li><a href="services.html" class="text-gray-400 hover:text-white transition-colors" data-i18n="footer-services">خدماتنا</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-white transition-colors" data-i18n="footer-contact">اتصل بنا</a></li>
+                        <li><a href="gallery.html" class="text-gray-400 hover:text-white transition-colors" data-i18n="footer-portfolio">معرض الأعمال</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-bold text-lg mb-6 text-amber-500" data-i18n="footer-our-services">خدماتنا</h3>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors" data-i18n="footer-service-gypsum">أسقف جبسية</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors" data-i18n="footer-service-decorative">ديكورات جبسية</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors" data-i18n="footer-service-columns">أعمدة وتيجان</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors" data-i18n="footer-service-frames">إطارات الأبواب</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors" data-i18n="footer-service-led">إضاءة LED</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-bold text-lg mb-6 text-amber-500" data-i18n="footer-contact-heading">تواصل معنا</h3>
+                    <ul class="space-y-4 text-gray-400">
+                        <li class="flex gap-3"><i class="fas fa-phone text-amber-500 mt-1"></i> <a href="tel:+966533659000">0533659000</a></li>
+                        <li class="flex gap-3"><i class="fas fa-envelope text-amber-500 mt-1"></i> <a href="mailto:info@ahmedgypsum.com">info@ahmedgypsum.com</a></li>
+                        <li class="flex gap-3"><i class="fas fa-clock text-amber-500 mt-1"></i> <span data-i18n="footer-hours">السبت - الخميس: 8 ص - 10 م</span></li>
+                        <li class="flex gap-3"><i class="fas fa-map-marker-alt text-amber-500 mt-1"></i> <span data-i18n="footer-address">المملكة العربية السعودية</span></li>
+                    </ul>
+                    <a href="https://wa.me/966533659000" target="_blank" rel="noopener noreferrer" class="mt-6 inline-flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-full transition-colors">
+                        <i class="fab fa-whatsapp"></i> <span data-i18n="footer-whatsapp">واتساب</span>
+                    </a>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 pt-8 text-center text-gray-500 text-sm">
+                <p data-i18n="footer-copyright">&copy; 2026 أحمد جبس بورد للديكور. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp -->
+    <a href="https://wa.me/966533659000" target="_blank" rel="noopener noreferrer" class="fixed bottom-6 right-6 z-50 bg-green-500 text-white w-14 h-14 sm:w-16 sm:h-16 rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition-transform animate-pulse-slow hover:animate-none" aria-label="واتساب">
+        <i class="fab fa-whatsapp text-2xl sm:text-3xl"></i>
+    </a>
+
+    <!-- ==================== LIGHTBOX ==================== -->
+    <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="عارض الصور">
+        <button class="lightbox-close" id="lightboxClose" aria-label="إغلاق"><i class="fas fa-times"></i></button>
+        <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="السابق"><i class="fas fa-chevron-left"></i></button>
+        <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="التالي"><i class="fas fa-chevron-right"></i></button>
+        <img id="lightboxImg" class="lightbox-img" src="" alt="" />
+        <div class="lightbox-counter" id="lightboxCounter">1 / 12</div>
+    </div>
+
+    <!-- ==================== SCRIPTS ==================== -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true,
+            offset: 50,
+            disable: window.matchMedia('(prefers-reduced-motion: reduce)').matches
+        });
+
+        // ============ TRANSLATIONS ============
+        const translations = {
+            ar: {
+                'title': 'معرض الأعمال | أحمد جبس بورد للديكور | مشاريع سابقة',
+                'menu-title': 'القائمة',
+                'nav-home': 'الرئيسية', 'nav-about': 'من نحن', 'nav-services': 'خدماتنا', 'nav-gallery': 'معرض الأعمال', 'nav-contact': 'اتصل بنا',
+                'hero-badge': 'أحدث مشاريعنا',
+                'hero-title1': 'معرض', 'hero-title2': 'الأعمال',
+                'hero-desc': 'تصفح مجموعة مختارة من أجمل مشاريعنا في الأسقف الجبسية، ديكورات الجدران، وتكامل الإضاءة. كل صورة تحكي قصة إبداع.',
+                'breadcrumb-home': 'الرئيسية', 'breadcrumb-current': 'معرض الأعمال',
+                'gallery-label': 'إبداعاتنا', 'gallery-title': 'مشاريع مختارة',
+                'filter-all': 'الكل', 'filter-gypsum': 'أسقف جبسية', 'filter-walls': 'ديكورات جدران', 'filter-lighting': 'إضاءة LED',
+                'cta-title': 'هل أعجبتك مشاريعنا؟',
+                'cta-desc': 'دعنا ننفذ مشروعك القادم بنفس الجودة والإبداع. تواصل معنا الآن لاستشارة مجانية.',
+                'cta-btn1': 'اطلب تصميمك', 'cta-btn2': 'اتصل بنا',
+                'footer-tagline': 'تصميم داخلي وديكور فاخر',
+                'footer-copyright': '© 2026 أحمد جبس بورد للديكور. جميع الحقوق محفوظة.',
+                'footer-quick-links': 'روابط سريعة', 'footer-home': 'الرئيسية', 'footer-about': 'من نحن',
+                'footer-services': 'خدماتنا', 'footer-contact': 'اتصل بنا', 'footer-portfolio': 'معرض الأعمال',
+                'footer-our-services': 'خدماتنا', 'footer-service-gypsum': 'أسقف جبسية',
+                'footer-service-decorative': 'ديكورات جبسية', 'footer-service-columns': 'أعمدة وتيجان',
+                'footer-service-frames': 'إطارات الأبواب', 'footer-service-led': 'إضاءة LED',
+                'footer-contact-heading': 'تواصل معنا', 'footer-hours': 'السبت - الخميس: 8 ص - 10 م',
+                'footer-address': 'المملكة العربية السعودية', 'footer-whatsapp': 'واتساب'
+            },
+            en: {
+                'title': 'Gallery | Ahmed Gypsum Board Decor | Previous Projects',
+                'menu-title': 'Menu',
+                'nav-home': 'Home', 'nav-about': 'About', 'nav-services': 'Services', 'nav-gallery': 'Gallery', 'nav-contact': 'Contact',
+                'hero-badge': 'Our Latest Projects',
+                'hero-title1': 'Our', 'hero-title2': 'Gallery',
+                'hero-desc': 'Browse a selected collection of our finest works in gypsum ceilings, wall decor, and lighting integration. Every image tells a story of creativity.',
+                'breadcrumb-home': 'Home', 'breadcrumb-current': 'Gallery',
+                'gallery-label': 'Our Creations', 'gallery-title': 'Selected Projects',
+                'filter-all': 'All', 'filter-gypsum': 'Gypsum Ceilings', 'filter-walls': 'Wall Decor', 'filter-lighting': 'LED Lighting',
+                'cta-title': 'Impressed by Our Work?',
+                'cta-desc': 'Let us execute your next project with the same quality and creativity. Contact us now for a free consultation.',
+                'cta-btn1': 'Request Your Design', 'cta-btn2': 'Call Us',
+                'footer-tagline': 'Premium Interior Design & Decoration',
+                'footer-copyright': '© 2026 Ahmed Gypsum Board Decor. All Rights Reserved.',
+                'footer-quick-links': 'Quick Links', 'footer-home': 'Home', 'footer-about': 'About',
+                'footer-services': 'Services', 'footer-contact': 'Contact', 'footer-portfolio': 'Portfolio',
+                'footer-our-services': 'Our Services', 'footer-service-gypsum': 'Gypsum Ceilings',
+                'footer-service-decorative': 'Decorative Gypsum', 'footer-service-columns': 'Columns & Capitals',
+                'footer-service-frames': 'Door Frames', 'footer-service-led': 'LED Lighting',
+                'footer-contact-heading': 'Contact Us', 'footer-hours': 'Sat - Thu: 8 AM - 10 PM',
+                'footer-address': 'Kingdom of Saudi Arabia', 'footer-whatsapp': 'WhatsApp'
+            }
+        };
+
+        let currentLang = localStorage.getItem('lang') || 'ar';
+        document.documentElement.lang = currentLang;
+        document.documentElement.dir = currentLang === 'ar' ? 'rtl' : 'ltr';
+
+        function applyLanguage(lang) {
+            document.querySelectorAll('[data-i18n]').forEach(el => {
+                const key = el.getAttribute('data-i18n');
+                if (translations[lang] && translations[lang][key]) el.textContent = translations[lang][key];
+            });
+            document.title = translations[lang]['title'] || document.title;
+            const langBtn = document.getElementById('langToggle');
+            if (langBtn) langBtn.textContent = lang === 'ar' ? 'English' : 'العربية';
+            const metaDesc = document.querySelector('meta[name="description"]');
+            if (metaDesc && translations[lang]['hero-desc']) metaDesc.setAttribute('content', translations[lang]['hero-desc']);
+            // Swap lightbox navigation icons for RTL
+            const prevIcon = document.querySelector('#lightboxPrev i');
+            const nextIcon = document.querySelector('#lightboxNext i');
+            if (prevIcon && nextIcon) {
+                if (lang === 'ar') {
+                    prevIcon.className = 'fas fa-chevron-right';
+                    nextIcon.className = 'fas fa-chevron-left';
+                } else {
+                    prevIcon.className = 'fas fa-chevron-left';
+                    nextIcon.className = 'fas fa-chevron-right';
+                }
+            }
+            localStorage.setItem('lang', lang);
+            currentLang = lang;
+        }
+
+        function switchLanguageWithAnimation(newLang) {
+            document.body.classList.add('translating');
+            setTimeout(() => {
+                applyLanguage(newLang);
+                document.documentElement.lang = newLang;
+                document.documentElement.dir = newLang === 'ar' ? 'rtl' : 'ltr';
+                requestAnimationFrame(() => document.body.classList.remove('translating'));
+            }, 200);
+        }
+
+        document.getElementById('langToggle').addEventListener('click', () => {
+            const newLang = currentLang === 'ar' ? 'en' : 'ar';
+            switchLanguageWithAnimation(newLang);
+        });
+        applyLanguage(currentLang);
+
+        // ============ SIDEBAR ============
+        const sidebar = document.getElementById('sidebar');
+        const overlay = document.getElementById('menuOverlay');
+        const menuBtn = document.getElementById('menuBtn');
+        const closeBtn = document.getElementById('closeMenu');
+        const body = document.body;
+
+        function openMenu() {
+            sidebar.classList.add('open'); overlay.classList.remove('hidden'); overlay.setAttribute('aria-hidden', 'false');
+            body.classList.add('menu-open'); menuBtn.setAttribute('aria-expanded', 'true');
+            const firstLink = sidebar.querySelector('a'); if (firstLink) setTimeout(() => firstLink.focus(), 100);
+        }
+        function closeMenu() {
+            sidebar.classList.remove('open'); overlay.classList.add('hidden'); overlay.setAttribute('aria-hidden', 'true');
+            body.classList.remove('menu-open'); menuBtn.setAttribute('aria-expanded', 'false'); menuBtn.focus();
+        }
+        menuBtn.addEventListener('click', openMenu);
+        closeBtn.addEventListener('click', closeMenu);
+        overlay.addEventListener('click', closeMenu);
+        sidebar.querySelectorAll('a').forEach(link => link.addEventListener('click', closeMenu));
+        sidebar.addEventListener('click', (e) => e.stopPropagation());
+        document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && sidebar.classList.contains('open')) closeMenu(); });
+
+        // ============ GALLERY DATA ============
+        const galleryItems = [
+            { src: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80', alt: 'سقف جبسي حديث', category: 'gypsum' },
+            { src: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=800&q=80', alt: 'ديكور جدران فاخر', category: 'walls' },
+            { src: 'https://images.unsplash.com/photo-1560185007-cde436f6a4d0?w=800&q=80', alt: 'إضاءة LED مخفية', category: 'lighting' },
+            { src: 'https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=800&q=80', alt: 'سقف جبسي ثلاثي الأبعاد', category: 'gypsum' },
+            { src: 'https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?w=800&q=80', alt: 'فواصل جبسية', category: 'walls' },
+            { src: 'https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800&q=80', alt: 'غرفة معيشة بإضاءة مخفية', category: 'lighting' },
+            { src: 'https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800&q=80', alt: 'سقف جبسي كلاسيكي', category: 'gypsum' },
+            { src: 'https://images.unsplash.com/photo-1600210491369-e753bd80a47f?w=800&q=80', alt: 'تكسية جدران', category: 'walls' },
+            { src: 'https://images.unsplash.com/photo-1560184997-5b7b1f4b8a8e?w=800&q=80', alt: 'أشرطة LED ملونة', category: 'lighting' },
+            { src: 'https://images.unsplash.com/photo-1600585154084-4e5fe7c39198?w=800&q=80', alt: 'سقف معلق فاخر', category: 'gypsum' },
+            { src: 'https://images.unsplash.com/photo-1600210492473-5a2c7e0db1b4?w=800&q=80', alt: 'ديكور أعمدة', category: 'walls' },
+            { src: 'https://images.unsplash.com/photo-1560185007-5f0bb1866cab?w=800&q=80', alt: 'سبوتات LED', category: 'lighting' }
+        ];
+
+        const galleryGrid = document.getElementById('galleryGrid');
+        let currentFilter = 'all';
+        let currentImageIndex = 0;
+        let filteredItems = [...galleryItems];
+
+        function renderGallery(filter = 'all') {
+            galleryGrid.innerHTML = '';
+            filteredItems = filter === 'all' ? [...galleryItems] : galleryItems.filter(item => item.category === filter);
+            filteredItems.forEach((item, index) => {
+                const div = document.createElement('div');
+                div.className = 'gallery-item group relative overflow-hidden rounded-2xl bg-gray-100 shadow-md';
+                div.setAttribute('data-aos', 'fade-up');
+                div.setAttribute('data-aos-duration', '600');
+                div.setAttribute('data-aos-delay', (index % 3) * 100);
+                div.innerHTML = `
+                    <div class="aspect-[4/3] overflow-hidden">
+                        <img src="${item.src}" alt="${item.alt}" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" loading="lazy">
+                    </div>
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-900/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
+                        <span class="text-white font-medium text-sm">${item.alt}</span>
+                    </div>
+                    <div class="absolute top-4 right-4 bg-white/90 backdrop-blur-sm rounded-full w-10 h-10 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 shadow-lg">
+                        <i class="fas fa-search text-amber-500"></i>
+                    </div>
+                `;
+                div.addEventListener('click', () => openLightbox(index));
+                galleryGrid.appendChild(div);
+            });
+            // Refresh AOS for new items
+            AOS.refresh();
+        }
+
+        renderGallery('all');
+
+        // Filter buttons
+        document.getElementById('filterButtons').addEventListener('click', (e) => {
+            const btn = e.target.closest('.filter-btn');
+            if (!btn) return;
+            const filter = btn.dataset.filter;
+            document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active', 'bg-amber-500', 'text-white', 'shadow-md', 'shadow-amber-500/20'));
+            btn.classList.add('active', 'bg-amber-500', 'text-white', 'shadow-md', 'shadow-amber-500/20');
+            currentFilter = filter;
+            renderGallery(filter);
+        });
+
+        // ============ LIGHTBOX ============
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImg = document.getElementById('lightboxImg');
+        const lightboxCounter = document.getElementById('lightboxCounter');
+        const lightboxClose = document.getElementById('lightboxClose');
+        const lightboxPrev = document.getElementById('lightboxPrev');
+        const lightboxNext = document.getElementById('lightboxNext');
+
+        function openLightbox(index) {
+            currentImageIndex = index;
+            updateLightboxImage();
+            lightbox.classList.add('open');
+            body.classList.add('lightbox-open');
+            lightbox.setAttribute('aria-hidden', 'false');
+        }
+
+        function closeLightbox() {
+            lightbox.classList.remove('open');
+            body.classList.remove('lightbox-open');
+            lightbox.setAttribute('aria-hidden', 'true');
+        }
+
+        function updateLightboxImage() {
+            const item = filteredItems[currentImageIndex];
+            lightboxImg.src = item.src;
+            lightboxImg.alt = item.alt;
+            lightboxCounter.textContent = `${currentImageIndex + 1} / ${filteredItems.length}`;
+        }
+
+        function showPrev() {
+            currentImageIndex = (currentImageIndex - 1 + filteredItems.length) % filteredItems.length;
+            updateLightboxImage();
+        }
+
+        function showNext() {
+            currentImageIndex = (currentImageIndex + 1) % filteredItems.length;
+            updateLightboxImage();
+        }
+
+        lightboxClose.addEventListener('click', closeLightbox);
+        lightboxPrev.addEventListener('click', showPrev);
+        lightboxNext.addEventListener('click', showNext);
+
+        // Close lightbox on overlay click
+        lightbox.addEventListener('click', (e) => {
+            if (e.target === lightbox) closeLightbox();
+        });
+
+        // Keyboard navigation
+        document.addEventListener('keydown', (e) => {
+            if (!lightbox.classList.contains('open')) return;
+            if (e.key === 'ArrowLeft') {
+                // In RTL, ArrowLeft should go to next? We'll keep consistent with our button icons.
+                // Because we swapped icons in RTL, the arrow key should match the visual direction.
+                // So if dir is rtl, ArrowLeft triggers next (showNext).
+                if (document.dir === 'rtl') showNext();
+                else showPrev();
+            } else if (e.key === 'ArrowRight') {
+                if (document.dir === 'rtl') showPrev();
+                else showNext();
+            } else if (e.key === 'Escape') {
+                closeLightbox();
+            }
+        });
+
+        // Navbar shadow on scroll
+        window.addEventListener('scroll', () => {
+            const nav = document.getElementById('navbar');
+            if (window.scrollY > 50) { nav.classList.add('shadow-xl'); nav.classList.remove('shadow-lg'); }
+            else { nav.classList.remove('shadow-xl'); nav.classList.add('shadow-lg'); }
+        }, { passive: true });
+    </script>
+</body>
+</html>

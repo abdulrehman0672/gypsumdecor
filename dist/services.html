@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ============ SEO META TAGS ============ -->
+    <title data-i18n="title">خدماتنا | أحمد جبس بورد للديكور | تصميم داخلي فاخر</title>
+    <meta name="description" content="خدمات أحمد جبس بورد للديكور - أسقف جبسية عصرية، ديكورات جدران فاخرة، إضاءة LED معمارية، وتشطيبات داخلية متكاملة. جودة عالية وتصاميم مخصصة في جميع أنحاء المملكة.">
+    <meta name="keywords" content="خدمات جبس بورد, أسقف جبسية, ديكورات جدران, إضاءة LED, تشطيبات داخلية, الرياض, السعودية, أحمد جبس بورد">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.ahmedgypsum.com/services">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.ahmedgypsum.com/services">
+    <meta property="og:title" content="خدماتنا | أحمد جبس بورد للديكور">
+    <meta property="og:description" content="خدمات تصميم داخلي متكاملة تشمل الأسقف الجبسية، ديكورات الجدران، وإضاءة LED المعمارية.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&h=630&fit=crop">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:site_name" content="أحمد جبس بورد للديكور">
+    <meta property="og:locale" content="ar_SA">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="خدماتنا | أحمد جبس بورد للديكور">
+    <meta name="twitter:description" content="خدمات تصميم داخلي متكاملة تشمل الأسقف الجبسية، ديكورات الجدران، وإضاءة LED المعمارية.">
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&h=630&fit=crop">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏛️</text></svg>">
+    <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏛️</text></svg>">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "name": "خدمات أحمد جبس بورد للديكور",
+            "provider": {
+                "@type": "HomeAndConstructionBusiness",
+                "name": "أحمد جبس بورد للديكور"
+            },
+            "serviceType": "Interior Design & Gypsum Decoration",
+            "areaServed": {
+                "@type": "Country",
+                "name": "SA"
+            },
+            "description": "خدمات متكاملة في الأسقف الجبسية، ديكورات الجدران، إضاءة LED، والفواصل الداخلية.",
+            "url": "https://www.ahmedgypsum.com/services"
+        }
+    </script>
+
+    <!-- Tailwind CSS -->
+    <link rel="stylesheet" href="output.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <style>
+        [dir="rtl"] .space-x-4>:not([hidden])~:not([hidden]) { --tw-space-x-reverse: 1; }
+        [dir="rtl"] .space-x-8>:not([hidden])~:not([hidden]) { --tw-space-x-reverse: 1; }
+        [dir="rtl"] .ml-2 { margin-left: 0; margin-right: 0.5rem; }
+        [dir="rtl"] .mr-2 { margin-right: 0; margin-left: 0.5rem; }
+        [dir="rtl"] .left-1\/2 { left: auto; right: 50%; }
+        [dir="rtl"] .-translate-x-1\/2 { --tw-translate-x: 50%; }
+        [dir="rtl"] .right-8 { right: auto; left: 2rem; }
+        [dir="rtl"] .left-10 { left: auto; right: 2.5rem; }
+        [dir="rtl"] .right-10 { right: auto; left: 2.5rem; }
+        [dir="rtl"] .right-0 { right: auto; left: 0; }
+        [dir="rtl"] .translate-x-full { --tw-translate-x: 100%; }
+        [dir="rtl"] .-translate-x-full { --tw-translate-x: -100%; }
+
+        .sidebar { transform: translateX(100%); transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1); }
+        [dir="rtl"] .sidebar { transform: translateX(-100%); }
+        .sidebar.open { transform: translateX(0); }
+        body.menu-open { overflow: hidden; }
+
+        [dir="rtl"] body { font-family: 'Cairo', sans-serif; }
+        [dir="rtl"] .font-playfair { font-family: 'Playfair Display', serif; }
+
+        body.translating [data-i18n] { opacity: 0; transition: opacity 0.2s ease; }
+        [data-i18n] { transition: opacity 0.3s ease; }
+
+        .skip-link {
+            position: absolute; top: -100px; left: 50%; transform: translateX(-50%);
+            z-index: 100; background: #f59e0b; color: #000; padding: 8px 16px;
+            border-radius: 0 0 8px 8px; font-weight: bold; transition: top 0.3s ease;
+        }
+        .skip-link:focus { top: 0; }
+
+        .service-card {
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .service-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 25px 50px -12px rgba(245, 158, 11, 0.15);
+        }
+
+        .process-step {
+            position: relative;
+            padding-right: 2rem;
+        }
+        [dir="rtl"] .process-step {
+            padding-right: 2rem;
+            padding-left: 0;
+        }
+        .process-step::before {
+            content: '';
+            position: absolute;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #f59e0b33;
+        }
+        [dir="rtl"] .process-step::before {
+            right: 0;
+            left: auto;
+        }
+        @media (min-width: 768px) {
+            .process-step::before { display: none; }
+        }
+
+        @media print {
+            .sidebar, #menuOverlay, .fixed, #langToggle, #menuBtn, #sidebar { display: none !important; }
+            body { background: white !important; color: black !important; }
+        }
+    </style>
+</head>
+<body class="bg-white">
+
+    <!-- Skip Link -->
+    <a href="#main-content" class="skip-link">تخطي إلى المحتوى الرئيسي</a>
+
+    <!-- ==================== HEADER ==================== -->
+    <header id="navbar" class="fixed w-full z-40 transition-all duration-300 backdrop-blur-lg bg-white/80 shadow-lg" role="banner">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <a href="index.html" class="font-playfair text-2xl lg:text-3xl font-bold text-slate-900 hover:opacity-90 transition-opacity">
+                    Ahmed<span class="text-amber-500">Gypsum</span>
+                </a>
+
+                <nav class="hidden lg:flex items-center gap-6" aria-label="الرئيسية">
+                    <a href="index.html" class="text-slate-900 hover:text-amber-500 font-medium transition-colors" data-i18n="nav-home">الرئيسية</a>
+                    <a href="about.html" class="text-slate-900 hover:text-amber-500 font-medium transition-colors" data-i18n="nav-about">من نحن</a>
+                    <a href="services.html" class="text-amber-500 font-semibold border-b-2 border-amber-500 pb-1" aria-current="page" data-i18n="nav-services">خدماتنا</a>
+                    <a href="gallery.html" class="text-slate-900 hover:text-amber-500 font-medium transition-colors" data-i18n="nav-gallery">معرض الأعمال</a>
+                    <a href="contact.html" class="text-slate-900 hover:text-amber-500 font-medium transition-colors" data-i18n="nav-contact">اتصل بنا</a>
+                </nav>
+
+                <div class="flex items-center gap-3">
+                    <button id="langToggle" class="px-4 py-2 rounded-full bg-gray-100 text-sm font-bold text-slate-900 hover:bg-amber-500 hover:text-white transition-all duration-300">
+                        English
+                    </button>
+                    <button id="menuBtn" class="p-2 text-slate-900 hover:text-amber-500 transition-colors rounded-lg hover:bg-gray-100 lg:hidden" aria-label="فتح القائمة">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ==================== SIDEBAR ==================== -->
+    <div id="menuOverlay" class="fixed inset-0 bg-black/50 z-40 hidden transition-opacity duration-300" aria-hidden="true"></div>
+    <div id="sidebar" class="sidebar fixed top-0 right-0 h-full w-80 max-w-[85vw] bg-white shadow-2xl z-50 flex flex-col" role="dialog" aria-modal="true" aria-label="القائمة الجانبية">
+        <div class="flex justify-between items-center p-6 border-b border-gray-200">
+            <span class="font-playfair text-2xl font-bold text-slate-900" data-i18n="menu-title">القائمة</span>
+            <button id="closeMenu" class="text-slate-900 hover:text-amber-500 transition-colors p-2 rounded-lg hover:bg-gray-100" aria-label="إغلاق القائمة">
+                <i class="fas fa-times text-2xl"></i>
+            </button>
+        </div>
+        <nav class="flex-1 p-6 space-y-2">
+            <a href="index.html" class="block px-4 py-3 rounded-xl text-slate-900 hover:bg-amber-500/10 font-medium text-lg" data-i18n="nav-home">الرئيسية</a>
+            <a href="about.html" class="block px-4 py-3 rounded-xl text-slate-900 hover:bg-amber-500/10 font-medium text-lg" data-i18n="nav-about">من نحن</a>
+            <a href="services.html" class="block px-4 py-3 rounded-xl text-amber-500 bg-amber-500/10 font-semibold text-lg" aria-current="page" data-i18n="nav-services">خدماتنا</a>
+            <a href="gallery.html" class="block px-4 py-3 rounded-xl text-slate-900 hover:bg-amber-500/10 font-medium text-lg" data-i18n="nav-gallery">معرض الأعمال</a>
+            <a href="contact.html" class="block px-4 py-3 rounded-xl text-slate-900 hover:bg-amber-500/10 font-medium text-lg" data-i18n="nav-contact">اتصل بنا</a>
+        </nav>
+    </div>
+
+    <!-- ==================== MAIN CONTENT ==================== -->
+    <main id="main-content">
+
+        <!-- ==================== PAGE HERO ==================== -->
+        <section class="relative pt-32 pb-20 overflow-hidden" aria-labelledby="services-hero-heading">
+            <div class="absolute inset-0 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
+                <div class="absolute inset-0 opacity-15">
+                    <div class="absolute top-10 right-10 w-80 h-80 bg-amber-500 rounded-full blur-3xl animate-float"></div>
+                    <div class="absolute bottom-10 left-10 w-64 h-64 bg-amber-500 rounded-full blur-3xl animate-float" style="animation-delay: 3s;"></div>
+                </div>
+            </div>
+            <div class="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20" style="background-image: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1920&q=80');" role="img" aria-label="أسقف جبسية وديكورات داخلية"></div>
+
+            <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <div class="inline-flex items-center px-4 py-2 bg-amber-500/20 backdrop-blur-sm rounded-full border border-amber-500/30 mb-6" data-aos="fade-down" data-aos-duration="800">
+                    <span class="w-2 h-2 bg-amber-500 rounded-full animate-pulse mr-2"></span>
+                    <span class="text-amber-400 text-sm font-medium" data-i18n="hero-badge">ما نقدمه لكم</span>
+                </div>
+
+                <h1 id="services-hero-heading" class="font-playfair text-4xl lg:text-6xl font-bold text-white mb-6" data-aos="fade-up" data-aos-duration="800">
+                    <span data-i18n="hero-title1">خدماتنا</span>
+                    <span class="text-amber-500" data-i18n="hero-title2">المتميزة</span>
+                </h1>
+
+                <p class="text-lg sm:text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200" data-i18n="hero-desc">
+                    نقدم حلولاً متكاملة في التصميم الداخلي والديكور، من الأسقف الجبسية العصرية إلى أنظمة الإضاءة الذكية، بجودة عالية وتنفيذ دقيق.
+                </p>
+
+                <div class="flex justify-center gap-4 mt-8" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
+                    <span class="text-gray-400 flex items-center gap-1"><i class="fas fa-home text-amber-500"></i> <span data-i18n="breadcrumb-home">الرئيسية</span></span>
+                    <span class="text-gray-500">/</span>
+                    <span class="text-amber-500 font-semibold" data-i18n="breadcrumb-current">خدماتنا</span>
+                </div>
+            </div>
+
+            <div class="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-white to-transparent"></div>
+        </section>
+
+        <!-- ==================== MAIN SERVICES (CARDS) ==================== -->
+        <section class="py-16 md:py-24 bg-white" aria-labelledby="services-heading">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12 md:mb-16">
+                    <span class="text-amber-500 font-semibold text-sm uppercase tracking-widest" data-i18n="services-label">خبراتنا</span>
+                    <h2 id="services-heading" class="font-playfair text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 mt-4 mb-6" data-i18n="services-title">خدماتنا المتكاملة</h2>
+                    <p class="text-gray-600 max-w-2xl mx-auto" data-i18n="services-subtitle">كل خدمة نصممها بعناية لتناسب ذوقك واحتياجات مساحتك، مع الالتزام بأعلى المعايير.</p>
+                </div>
+
+                <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+                    <!-- Service 1 -->
+                    <div class="service-card bg-gray-50 rounded-3xl overflow-hidden hover:shadow-2xl transition-all duration-300 group" data-aos="fade-up" data-aos-duration="800">
+                        <div class="h-48 sm:h-56 overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&h=400&fit=crop&q=80" alt="أسقف جبسية عصرية" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" loading="lazy">
+                        </div>
+                        <div class="p-6 sm:p-8">
+                            <div class="w-12 h-12 rounded-xl bg-amber-500/10 flex items-center justify-center mb-4 group-hover:bg-amber-500 transition-colors">
+                                <i class="fas fa-border-all text-xl text-amber-500 group-hover:text-white"></i>
+                            </div>
+                            <h3 class="font-playfair text-xl sm:text-2xl font-bold text-slate-900 mb-3" data-i18n="service1-title">أسقف جبسية عصرية</h3>
+                            <p class="text-gray-600 text-sm sm:text-base" data-i18n="service1-desc">أسقف معلقة ومزخرفة بتصاميم مخصصة، تضيف فخامة وارتفاعاً بصرياً لأي غرفة.</p>
+                            <ul class="mt-4 space-y-2 text-sm text-slate-700">
+                                <li class="flex items-center gap-2"><i class="fas fa-check text-amber-500 text-xs"></i><span data-i18n="service1-item1">أسقف مستعارة (معلقة)</span></li>
+                                <li class="flex items-center gap-2"><i class="fas fa-check text-amber-500 text-xs"></i><span data-i18n="service1-item2">أسقف معمارية</span></li>
+                                <li class="flex items-center gap-2"><i class="fas fa-check text-amber-500 text-xs"></i><span data-i18n="service1-item3">أسقف ثلاثية الأبعاد</span></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Service 2 -->
+                    <div class="service-card bg-gray-50 rounded-3xl overflow-hidden hover:shadow-2xl transition-all duration-300 group" data-aos="fade-up" data-aos-duration="800" data-aos-delay="150">
+                        <div class="h-48 sm:h-56 overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=600&h=400&fit=crop&q=80" alt="ديكورات جدران وفواصل" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" loading="lazy">
+                        </div>
+                        <div class="p-6 sm:p-8">
+                            <div class="w-12 h-12 rounded-xl bg-amber-500/10 flex items-center justify-center mb-4 group-hover:bg-amber-500 transition-colors">
+                                <i class="fas fa-vector-square text-xl text-amber-500 group-hover:text-white"></i>
+                            </div>
+                            <h3 class="font-playfair text-xl sm:text-2xl font-bold text-slate-900 mb-3" data-i18n="service2-title">ديكورات الجدران والفواصل</h3>
+                            <p class="text-gray-600 text-sm sm:text-base" data-i18n="service2-desc">تكسية جدران أنيقة وفواصل داخلية تعيد تعريف المساحات بلمسة عصرية.</p>
+                            <ul class="mt-4 space-y-2 text-sm text-slate-700">
+                                <li class="flex items-center gap-2"><i class="fas fa-check text-amber-500 text-xs"></i><span data-i18n="service2-item1">تكسية جدران جبسية</span></li>
+                                <li class="flex items-center gap-2"><i class="fas fa-check text-amber-500 text-xs"></i><span data-i18n="service2-item2">فواصل غرف</span></li>
+                                <li class="flex items-center gap-2"><i class="fas fa-check text-amber-500 text-xs"></i><span data-i18n="service2-item3">ألواح زخرفية</span></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Service 3 -->
+                    <div class="service-card bg-gray-50 rounded-3xl overflow-hidden hover:shadow-2xl transition-all duration-300 group" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
+                        <div class="h-48 sm:h-56 overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1560185007-cde436f6a4d0?w=600&h=400&fit=crop&q=80" alt="إضاءة LED معمارية" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" loading="lazy">
+                        </div>
+                        <div class="p-6 sm:p-8">
+                            <div class="w-12 h-12 rounded-xl bg-amber-500/10 flex items-center justify-center mb-4 group-hover:bg-amber-500 transition-colors">
+                                <i class="fas fa-lightbulb text-xl text-amber-500 group-hover:text-white"></i>
+                            </div>
+                            <h3 class="font-playfair text-xl sm:text-2xl font-bold text-slate-900 mb-3" data-i18n="service3-title">تكامل إضاءة LED</h3>
+                            <p class="text-gray-600 text-sm sm:text-base" data-i18n="service3-desc">حلول إضاءة ذكية تشمل أضواء مخفية وسبوتات وأشرطة LED محيطية.</p>
+                            <ul class="mt-4 space-y-2 text-sm text-slate-700">
+                                <li class="flex items-center gap-2"><i class="fas fa-check text-amber-500 text-xs"></i><span data-i18n="service3-item1">إضاءة مخفية (كوف)</span></li>
+                                <li class="flex items-center gap-2"><i class="fas fa-check text-amber-500 text-xs"></i><span data-i18n="service3-item2">سبوتات LED</span></li>
+                                <li class="flex items-center gap-2"><i class="fas fa-check text-amber-500 text-xs"></i><span data-i18n="service3-item3">أشرطة إضاءة ملونة</span></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Service 4 -->
+                    <div class="service-card bg-gray-50 rounded-3xl overflow-hidden hover:shadow-2xl transition-all duration-300 group" data-aos="fade-up" data-aos-duration="800">
+                        <div class="h-48 sm:h-56 overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=600&h=400&fit=crop&q=80" alt="أعمدة وتيجان ديكورية" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" loading="lazy">
+                        </div>
+                        <div class="p-6 sm:p-8">
+                            <div class="w-12 h-12 rounded-xl bg-amber-500/10 flex items-center justify-center mb-4 group-hover:bg-amber-500 transition-colors">
+                                <i class="fas fa-columns text-xl text-amber-500 group-hover:text-white"></i>
+                            </div>
+                            <h3 class="font-playfair text-xl sm:text-2xl font-bold text-slate-900 mb-3" data-i18n="service4-title">أعمدة وتيجان ديكورية</h3>
+                            <p class="text-gray-600 text-sm sm:text-base" data-i18n="service4-desc">أعمدة جبسية كلاسيكية وعصرية تضيف طابعاً فريداً للمداخل والصالات.</p>
+                            <ul class="mt-4 space-y-2 text-sm text-slate-700">
+                                <li class="flex items-center gap-2"><i class="fas fa-check text-amber-500 text-xs"></i><span data-i18n="service4-item1">أعمدة رومانية</span></li>
+                                <li class="flex items-center gap-2"><i class="fas fa-check text-amber-500 text-xs"></i><span data-i18n="service4-item2">تيجان مزخرفة</span></li>
+                                <li class="flex items-center gap-2"><i class="fas fa-check text-amber-500 text-xs"></i><span data-i18n="service4-item3">أعمدة حديثة</span></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Service 5 -->
+                    <div class="service-card bg-gray-50 rounded-3xl overflow-hidden hover:shadow-2xl transition-all duration-300 group" data-aos="fade-up" data-aos-duration="800" data-aos-delay="150">
+                        <div class="h-48 sm:h-56 overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?w=600&h=400&fit=crop&q=80" alt="إطارات أبواب جبسية" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" loading="lazy">
+                        </div>
+                        <div class="p-6 sm:p-8">
+                            <div class="w-12 h-12 rounded-xl bg-amber-500/10 flex items-center justify-center mb-4 group-hover:bg-amber-500 transition-colors">
+                                <i class="fas fa-door-open text-xl text-amber-500 group-hover:text-white"></i>
+                            </div>
+                            <h3 class="font-playfair text-xl sm:text-2xl font-bold text-slate-900 mb-3" data-i18n="service5-title">إطارات وزخارف أبواب</h3>
+                            <p class="text-gray-600 text-sm sm:text-base" data-i18n="service5-desc">إطارات جبسية للأبواب والنوافذ تضفي لمسة فاخرة على التفاصيل الدقيقة.</p>
+                            <ul class="mt-4 space-y-2 text-sm text-slate-700">
+                                <li class="flex items-center gap-2"><i class="fas fa-check text-amber-500 text-xs"></i><span data-i18n="service5-item1">إطارات كلاسيكية</span></li>
+                                <li class="flex items-center gap-2"><i class="fas fa-check text-amber-500 text-xs"></i><span data-i18n="service5-item2">زخارف نباتية</span></li>
+                                <li class="flex items-center gap-2"><i class="fas fa-check text-amber-500 text-xs"></i><span data-i18n="service5-item3">قوالب حديثة</span></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Service 6 -->
+                    <div class="service-card bg-gray-50 rounded-3xl overflow-hidden hover:shadow-2xl transition-all duration-300 group" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
+                        <div class="h-48 sm:h-56 overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=600&h=400&fit=crop&q=80" alt="صيانة وترميم ديكور" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" loading="lazy">
+                        </div>
+                        <div class="p-6 sm:p-8">
+                            <div class="w-12 h-12 rounded-xl bg-amber-500/10 flex items-center justify-center mb-4 group-hover:bg-amber-500 transition-colors">
+                                <i class="fas fa-tools text-xl text-amber-500 group-hover:text-white"></i>
+                            </div>
+                            <h3 class="font-playfair text-xl sm:text-2xl font-bold text-slate-900 mb-3" data-i18n="service6-title">صيانة وترميم</h3>
+                            <p class="text-gray-600 text-sm sm:text-base" data-i18n="service6-desc">صيانة كاملة للأسقف والديكورات الجبسية، وإصلاح التشققات والتلف بأعلى دقة.</p>
+                            <ul class="mt-4 space-y-2 text-sm text-slate-700">
+                                <li class="flex items-center gap-2"><i class="fas fa-check text-amber-500 text-xs"></i><span data-i18n="service6-item1">معالجة التشققات</span></li>
+                                <li class="flex items-center gap-2"><i class="fas fa-check text-amber-500 text-xs"></i><span data-i18n="service6-item2">إعادة طلاء</span></li>
+                                <li class="flex items-center gap-2"><i class="fas fa-check text-amber-500 text-xs"></i><span data-i18n="service6-item3">ترميم كامل</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== HOW WE WORK (PROCESS) ==================== -->
+        <section class="py-16 md:py-24 bg-gray-50" aria-labelledby="process-heading">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12 md:mb-16">
+                    <span class="text-amber-500 font-semibold text-sm uppercase tracking-widest" data-i18n="process-label">طريقتنا</span>
+                    <h2 id="process-heading" class="font-playfair text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 mt-4 mb-6" data-i18n="process-title">كيف نعمل؟</h2>
+                    <p class="text-gray-600 max-w-2xl mx-auto" data-i18n="process-desc">نتبع منهجية منظمة نضمن بها تنفيذ مشروعك من الفكرة إلى التسليم بكل سلاسة.</p>
+                </div>
+
+                <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-6">
+                    <!-- Step 1 -->
+                    <div class="text-center process-step relative" data-aos="fade-up" data-aos-duration="600">
+                        <div class="w-16 h-16 rounded-2xl bg-amber-500 flex items-center justify-center mx-auto mb-4 shadow-lg shadow-amber-500/20">
+                            <i class="fas fa-comments text-2xl text-white"></i>
+                        </div>
+                        <h4 class="font-bold text-slate-900 text-lg mb-2" data-i18n="process-step1-title">استشارة وتخطيط</h4>
+                        <p class="text-gray-600 text-sm" data-i18n="process-step1-desc">نستمع لأفكارك ونقدم تصوراً أولياً يناسب ميزانيتك.</p>
+                    </div>
+                    <!-- Step 2 -->
+                    <div class="text-center process-step relative" data-aos="fade-up" data-aos-duration="600" data-aos-delay="150">
+                        <div class="w-16 h-16 rounded-2xl bg-amber-500 flex items-center justify-center mx-auto mb-4 shadow-lg shadow-amber-500/20">
+                            <i class="fas fa-pencil-ruler text-2xl text-white"></i>
+                        </div>
+                        <h4 class="font-bold text-slate-900 text-lg mb-2" data-i18n="process-step2-title">تصميم ومعاينة</h4>
+                        <p class="text-gray-600 text-sm" data-i18n="process-step2-desc">نصمم مخططاً تفصيلياً مع معاينة ثلاثية الأبعاد للمشروع.</p>
+                    </div>
+                    <!-- Step 3 -->
+                    <div class="text-center process-step relative" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">
+                        <div class="w-16 h-16 rounded-2xl bg-amber-500 flex items-center justify-center mx-auto mb-4 shadow-lg shadow-amber-500/20">
+                            <i class="fas fa-hard-hat text-2xl text-white"></i>
+                        </div>
+                        <h4 class="font-bold text-slate-900 text-lg mb-2" data-i18n="process-step3-title">تنفيذ دقيق</h4>
+                        <p class="text-gray-600 text-sm" data-i18n="process-step3-desc">فريقنا المتخصص يبدأ التنفيذ بأجود المواد وفي الموعد المحدد.</p>
+                    </div>
+                    <!-- Step 4 -->
+                    <div class="text-center process-step relative" data-aos="fade-up" data-aos-duration="600" data-aos-delay="450">
+                        <div class="w-16 h-16 rounded-2xl bg-amber-500 flex items-center justify-center mx-auto mb-4 shadow-lg shadow-amber-500/20">
+                            <i class="fas fa-star text-2xl text-white"></i>
+                        </div>
+                        <h4 class="font-bold text-slate-900 text-lg mb-2" data-i18n="process-step4-title">تسليم وضمان</h4>
+                        <p class="text-gray-600 text-sm" data-i18n="process-step4-desc">نستلم معك المشروع ونمنح ضماناً على جميع الأعمال المنفذة.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== STATS BANNER (REUSED) ==================== -->
+        <section id="stats-section" class="py-16 md:py-20 bg-gradient-to-r from-amber-500 to-amber-600 relative overflow-hidden" aria-labelledby="stats-heading">
+            <div class="absolute inset-0 opacity-10">
+                <div class="absolute top-0 left-0 w-64 h-64 bg-white rounded-full blur-3xl"></div>
+                <div class="absolute bottom-0 right-0 w-96 h-96 bg-white rounded-full blur-3xl"></div>
+            </div>
+
+            <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-10 md:mb-12">
+                    <h2 id="stats-heading" class="font-playfair text-3xl sm:text-4xl lg:text-5xl font-bold text-white" data-i18n="stats-heading">أرقام تثبت جدارتنا</h2>
+                </div>
+
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 md:gap-8">
+                    <div class="stat-card bg-white/15 backdrop-blur-sm rounded-3xl p-6 sm:p-8 text-center border border-white/20" data-aos="zoom-in" data-aos-duration="600">
+                        <div class="text-4xl sm:text-5xl lg:text-6xl font-bold text-white counter font-playfair" data-target="15">0</div>
+                        <div class="text-white/80 mt-2 font-medium text-sm sm:text-base" data-i18n="stat-years">سنوات الخبرة</div>
+                    </div>
+                    <div class="stat-card bg-white/15 backdrop-blur-sm rounded-3xl p-6 sm:p-8 text-center border border-white/20" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="150">
+                        <div class="text-4xl sm:text-5xl lg:text-6xl font-bold text-white counter font-playfair" data-target="500">0</div>
+                        <div class="text-white/80 mt-2 font-medium text-sm sm:text-base" data-i18n="stat-projects">مشروع مكتمل</div>
+                    </div>
+                    <div class="stat-card bg-white/15 backdrop-blur-sm rounded-3xl p-6 sm:p-8 text-center border border-white/20" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="300">
+                        <div class="text-4xl sm:text-5xl lg:text-6xl font-bold text-white counter font-playfair" data-target="25">0</div>
+                        <div class="text-white/80 mt-2 font-medium text-sm sm:text-base" data-i18n="stat-team">فريق محترف</div>
+                    </div>
+                    <div class="stat-card bg-white/15 backdrop-blur-sm rounded-3xl p-6 sm:p-8 text-center border border-white/20" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="450">
+                        <div class="text-4xl sm:text-5xl lg:text-6xl font-bold text-white counter font-playfair" data-target="100">0</div>
+                        <div class="text-white/80 mt-2 font-medium text-sm sm:text-base" data-i18n="stat-satisfaction">رضا العملاء</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== CTA SECTION ==================== -->
+        <section class="relative py-16 md:py-24 overflow-hidden" aria-labelledby="cta-heading">
+            <div class="absolute inset-0 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900"></div>
+            <div class="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-15" style="background-image: url('https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=1920&q=80');" role="img" aria-label="ديكور داخلي فاخر"></div>
+
+            <div class="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h2 id="cta-heading" class="font-playfair text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6" data-aos="fade-up" data-aos-duration="800" data-i18n="cta-title">هل لديك مشروع في ذهنك؟</h2>
+                <p class="text-lg sm:text-xl text-gray-300 mb-10 max-w-2xl mx-auto" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200" data-i18n="cta-desc">دعنا نصنع معاً تصميماً يعكس ذوقك. تواصل معنا اليوم للحصول على استشارة مجانية وعرض سعر خاص.</p>
+                <div class="flex flex-wrap justify-center gap-4" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
+                    <a href="contact.html" class="group bg-gradient-to-r from-amber-500 to-amber-600 text-white px-8 py-4 rounded-full font-semibold text-lg hover:shadow-2xl hover:shadow-amber-500/30 transform hover:-translate-y-1 transition-all duration-300 inline-flex items-center">
+                        <span data-i18n="cta-btn1">اطلب عرض سعر</span>
+                        <i class="fas fa-arrow-left mr-2 group-hover:translate-x-2 transition-transform"></i>
+                    </a>
+                    <a href="tel:+966533659000" class="backdrop-blur-sm bg-white/10 text-white px-8 py-4 rounded-full font-semibold text-lg border-2 border-white/30 hover:bg-white/20 transform hover:-translate-y-1 transition-all duration-300 inline-flex items-center gap-2">
+                        <i class="fas fa-phone"></i>
+                        <span data-i18n="cta-btn2">اتصل الآن</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="bg-slate-900 text-white pt-16 pb-8" role="contentinfo">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 md:gap-12 mb-12">
+                <div>
+                    <div class="font-playfair text-3xl font-bold mb-4">Ahmed<span class="text-amber-500">Gypsum</span></div>
+                    <p class="text-gray-400 mb-6" data-i18n="footer-tagline">تصميم داخلي وديكور فاخر</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-amber-500 transition-colors p-2 hover:bg-white/5 rounded-full"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-amber-500 transition-colors p-2 hover:bg-white/5 rounded-full"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-amber-500 transition-colors p-2 hover:bg-white/5 rounded-full"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-amber-500 transition-colors p-2 hover:bg-white/5 rounded-full"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-bold text-lg mb-6 text-amber-500" data-i18n="footer-quick-links">روابط سريعة</h3>
+                    <ul class="space-y-3">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white transition-colors" data-i18n="footer-home">الرئيسية</a></li>
+                        <li><a href="about.html" class="text-gray-400 hover:text-white transition-colors" data-i18n="footer-about">من نحن</a></li>
+                        <li><a href="services.html" class="text-gray-400 hover:text-white transition-colors" data-i18n="footer-services">خدماتنا</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-white transition-colors" data-i18n="footer-contact">اتصل بنا</a></li>
+                        <li><a href="gallery.html" class="text-gray-400 hover:text-white transition-colors" data-i18n="footer-portfolio">معرض الأعمال</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-bold text-lg mb-6 text-amber-500" data-i18n="footer-our-services">خدماتنا</h3>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors" data-i18n="footer-service-gypsum">أسقف جبسية</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors" data-i18n="footer-service-decorative">ديكورات جبسية</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors" data-i18n="footer-service-columns">أعمدة وتيجان</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors" data-i18n="footer-service-frames">إطارات الأبواب</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors" data-i18n="footer-service-led">إضاءة LED</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-bold text-lg mb-6 text-amber-500" data-i18n="footer-contact-heading">تواصل معنا</h3>
+                    <ul class="space-y-4 text-gray-400">
+                        <li class="flex gap-3"><i class="fas fa-phone text-amber-500 mt-1"></i> <a href="tel:+966533659000">0533659000</a></li>
+                        <li class="flex gap-3"><i class="fas fa-envelope text-amber-500 mt-1"></i> <a href="mailto:info@ahmedgypsum.com">info@ahmedgypsum.com</a></li>
+                        <li class="flex gap-3"><i class="fas fa-clock text-amber-500 mt-1"></i> <span data-i18n="footer-hours">السبت - الخميس: 8 ص - 10 م</span></li>
+                        <li class="flex gap-3"><i class="fas fa-map-marker-alt text-amber-500 mt-1"></i> <span data-i18n="footer-address">المملكة العربية السعودية</span></li>
+                    </ul>
+                    <a href="https://wa.me/966533659000" target="_blank" rel="noopener noreferrer" class="mt-6 inline-flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-full transition-colors">
+                        <i class="fab fa-whatsapp"></i> <span data-i18n="footer-whatsapp">واتساب</span>
+                    </a>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 pt-8 text-center text-gray-500 text-sm">
+                <p data-i18n="footer-copyright">&copy; 2026 أحمد جبس بورد للديكور. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp -->
+    <a href="https://wa.me/966533659000" target="_blank" rel="noopener noreferrer" class="fixed bottom-6 right-6 z-50 bg-green-500 text-white w-14 h-14 sm:w-16 sm:h-16 rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition-transform animate-pulse-slow hover:animate-none" aria-label="واتساب">
+        <i class="fab fa-whatsapp text-2xl sm:text-3xl"></i>
+    </a>
+
+    <!-- ==================== SCRIPTS ==================== -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true,
+            offset: 50,
+            disable: window.matchMedia('(prefers-reduced-motion: reduce)').matches
+        });
+
+        // ============ TRANSLATIONS ============
+        const translations = {
+            ar: {
+                'title': 'خدماتنا | أحمد جبس بورد للديكور | تصميم داخلي فاخر',
+                'menu-title': 'القائمة',
+                'nav-home': 'الرئيسية', 'nav-about': 'من نحن', 'nav-services': 'خدماتنا', 'nav-gallery': 'معرض الأعمال', 'nav-contact': 'اتصل بنا',
+                'hero-badge': 'ما نقدمه لكم',
+                'hero-title1': 'خدماتنا', 'hero-title2': 'المتميزة',
+                'hero-desc': 'نقدم حلولاً متكاملة في التصميم الداخلي والديكور، من الأسقف الجبسية العصرية إلى أنظمة الإضاءة الذكية، بجودة عالية وتنفيذ دقيق.',
+                'breadcrumb-home': 'الرئيسية', 'breadcrumb-current': 'خدماتنا',
+                'services-label': 'خبراتنا', 'services-title': 'خدماتنا المتكاملة', 'services-subtitle': 'كل خدمة نصممها بعناية لتناسب ذوقك واحتياجات مساحتك، مع الالتزام بأعلى المعايير.',
+                'service1-title': 'أسقف جبسية عصرية', 'service1-desc': 'أسقف معلقة ومزخرفة بتصاميم مخصصة، تضيف فخامة وارتفاعاً بصرياً لأي غرفة.',
+                'service1-item1': 'أسقف مستعارة (معلقة)', 'service1-item2': 'أسقف معمارية', 'service1-item3': 'أسقف ثلاثية الأبعاد',
+                'service2-title': 'ديكورات الجدران والفواصل', 'service2-desc': 'تكسية جدران أنيقة وفواصل داخلية تعيد تعريف المساحات بلمسة عصرية.',
+                'service2-item1': 'تكسية جدران جبسية', 'service2-item2': 'فواصل غرف', 'service2-item3': 'ألواح زخرفية',
+                'service3-title': 'تكامل إضاءة LED', 'service3-desc': 'حلول إضاءة ذكية تشمل أضواء مخفية وسبوتات وأشرطة LED محيطية.',
+                'service3-item1': 'إضاءة مخفية (كوف)', 'service3-item2': 'سبوتات LED', 'service3-item3': 'أشرطة إضاءة ملونة',
+                'service4-title': 'أعمدة وتيجان ديكورية', 'service4-desc': 'أعمدة جبسية كلاسيكية وعصرية تضيف طابعاً فريداً للمداخل والصالات.',
+                'service4-item1': 'أعمدة رومانية', 'service4-item2': 'تيجان مزخرفة', 'service4-item3': 'أعمدة حديثة',
+                'service5-title': 'إطارات وزخارف أبواب', 'service5-desc': 'إطارات جبسية للأبواب والنوافذ تضفي لمسة فاخرة على التفاصيل الدقيقة.',
+                'service5-item1': 'إطارات كلاسيكية', 'service5-item2': 'زخارف نباتية', 'service5-item3': 'قوالب حديثة',
+                'service6-title': 'صيانة وترميم', 'service6-desc': 'صيانة كاملة للأسقف والديكورات الجبسية، وإصلاح التشققات والتلف بأعلى دقة.',
+                'service6-item1': 'معالجة التشققات', 'service6-item2': 'إعادة طلاء', 'service6-item3': 'ترميم كامل',
+                'process-label': 'طريقتنا', 'process-title': 'كيف نعمل؟', 'process-desc': 'نتبع منهجية منظمة نضمن بها تنفيذ مشروعك من الفكرة إلى التسليم بكل سلاسة.',
+                'process-step1-title': 'استشارة وتخطيط', 'process-step1-desc': 'نستمع لأفكارك ونقدم تصوراً أولياً يناسب ميزانيتك.',
+                'process-step2-title': 'تصميم ومعاينة', 'process-step2-desc': 'نصمم مخططاً تفصيلياً مع معاينة ثلاثية الأبعاد للمشروع.',
+                'process-step3-title': 'تنفيذ دقيق', 'process-step3-desc': 'فريقنا المتخصص يبدأ التنفيذ بأجود المواد وفي الموعد المحدد.',
+                'process-step4-title': 'تسليم وضمان', 'process-step4-desc': 'نستلم معك المشروع ونمنح ضماناً على جميع الأعمال المنفذة.',
+                'stats-heading': 'أرقام تثبت جدارتنا',
+                'stat-years': 'سنوات الخبرة', 'stat-projects': 'مشروع مكتمل', 'stat-team': 'فريق محترف', 'stat-satisfaction': '% رضا العملاء',
+                'cta-title': 'هل لديك مشروع في ذهنك؟',
+                'cta-desc': 'دعنا نصنع معاً تصميماً يعكس ذوقك. تواصل معنا اليوم للحصول على استشارة مجانية وعرض سعر خاص.',
+                'cta-btn1': 'اطلب عرض سعر', 'cta-btn2': 'اتصل الآن',
+                'footer-tagline': 'تصميم داخلي وديكور فاخر',
+                'footer-copyright': '© 2026 أحمد جبس بورد للديكور. جميع الحقوق محفوظة.',
+                'footer-quick-links': 'روابط سريعة', 'footer-home': 'الرئيسية', 'footer-about': 'من نحن',
+                'footer-services': 'خدماتنا', 'footer-contact': 'اتصل بنا', 'footer-portfolio': 'معرض الأعمال',
+                'footer-our-services': 'خدماتنا', 'footer-service-gypsum': 'أسقف جبسية',
+                'footer-service-decorative': 'ديكورات جبسية', 'footer-service-columns': 'أعمدة وتيجان',
+                'footer-service-frames': 'إطارات الأبواب', 'footer-service-led': 'إضاءة LED',
+                'footer-contact-heading': 'تواصل معنا', 'footer-hours': 'السبت - الخميس: 8 ص - 10 م',
+                'footer-address': 'المملكة العربية السعودية', 'footer-whatsapp': 'واتساب'
+            },
+            en: {
+                'title': 'Services | Ahmed Gypsum Board Decor | Premium Interior Design',
+                'menu-title': 'Menu',
+                'nav-home': 'Home', 'nav-about': 'About', 'nav-services': 'Services', 'nav-gallery': 'Gallery', 'nav-contact': 'Contact',
+                'hero-badge': 'What We Offer',
+                'hero-title1': 'Our Premium', 'hero-title2': 'Services',
+                'hero-desc': 'We provide integrated interior design and decoration solutions, from modern gypsum ceilings to smart lighting systems, with high quality and precise execution.',
+                'breadcrumb-home': 'Home', 'breadcrumb-current': 'Services',
+                'services-label': 'Our Expertise', 'services-title': 'Integrated Services', 'services-subtitle': 'Every service is carefully designed to suit your taste and space requirements, adhering to the highest standards.',
+                'service1-title': 'Modern Gypsum Ceilings', 'service1-desc': 'Suspended and decorated ceilings with custom designs, adding luxury and visual height to any room.',
+                'service1-item1': 'False (Suspended) Ceilings', 'service1-item2': 'Architectural Ceilings', 'service1-item3': '3D Ceilings',
+                'service2-title': 'Wall Decor & Partitions', 'service2-desc': 'Elegant wall cladding and interior partitions that redefine spaces with a modern touch.',
+                'service2-item1': 'Gypsum Wall Cladding', 'service2-item2': 'Room Dividers', 'service2-item3': 'Decorative Panels',
+                'service3-title': 'LED Lighting Integration', 'service3-desc': 'Smart lighting solutions including cove lights, spotlights, and ambient LED strips.',
+                'service3-item1': 'Cove Lighting', 'service3-item2': 'LED Spotlights', 'service3-item3': 'Color LED Strips',
+                'service4-title': 'Decorative Columns & Capitals', 'service4-desc': 'Classic and modern gypsum columns that add a unique character to entrances and halls.',
+                'service4-item1': 'Roman Columns', 'service4-item2': 'Ornate Capitals', 'service4-item3': 'Modern Columns',
+                'service5-title': 'Door Frames & Molding', 'service5-desc': 'Gypsum frames for doors and windows that add a luxurious touch to fine details.',
+                'service5-item1': 'Classic Frames', 'service5-item2': 'Floral Moldings', 'service5-item3': 'Modern Molding',
+                'service6-title': 'Maintenance & Restoration', 'service6-desc': 'Complete maintenance for gypsum ceilings and decorations, repairing cracks and damage with high precision.',
+                'service6-item1': 'Crack Repair', 'service6-item2': 'Repainting', 'service6-item3': 'Full Restoration',
+                'process-label': 'Our Method', 'process-title': 'How We Work?', 'process-desc': 'We follow a structured methodology to ensure your project is executed smoothly from idea to delivery.',
+                'process-step1-title': 'Consultation & Planning', 'process-step1-desc': 'We listen to your ideas and present an initial concept that fits your budget.',
+                'process-step2-title': 'Design & Preview', 'process-step2-desc': 'We design a detailed plan with a 3D preview of the project.',
+                'process-step3-title': 'Precise Execution', 'process-step3-desc': 'Our specialized team begins work using the finest materials and on schedule.',
+                'process-step4-title': 'Handover & Warranty', 'process-step4-desc': 'We inspect the project with you and provide a warranty on all completed work.',
+                'stats-heading': 'Numbers That Prove Our Worth',
+                'stat-years': 'Years Experience', 'stat-projects': 'Projects Done', 'stat-team': 'Professional Team', 'stat-satisfaction': '% Satisfaction',
+                'cta-title': 'Have a Project in Mind?',
+                'cta-desc': 'Let us create together a design that reflects your taste. Contact us today for a free consultation and a special quote.',
+                'cta-btn1': 'Request a Quote', 'cta-btn2': 'Call Now',
+                'footer-tagline': 'Premium Interior Design & Decoration',
+                'footer-copyright': '© 2026 Ahmed Gypsum Board Decor. All Rights Reserved.',
+                'footer-quick-links': 'Quick Links', 'footer-home': 'Home', 'footer-about': 'About',
+                'footer-services': 'Services', 'footer-contact': 'Contact', 'footer-portfolio': 'Portfolio',
+                'footer-our-services': 'Our Services', 'footer-service-gypsum': 'Gypsum Ceilings',
+                'footer-service-decorative': 'Decorative Gypsum', 'footer-service-columns': 'Columns & Capitals',
+                'footer-service-frames': 'Door Frames', 'footer-service-led': 'LED Lighting',
+                'footer-contact-heading': 'Contact Us', 'footer-hours': 'Sat - Thu: 8 AM - 10 PM',
+                'footer-address': 'Kingdom of Saudi Arabia', 'footer-whatsapp': 'WhatsApp'
+            }
+        };
+
+        let currentLang = localStorage.getItem('lang') || 'ar';
+        document.documentElement.lang = currentLang;
+        document.documentElement.dir = currentLang === 'ar' ? 'rtl' : 'ltr';
+
+        function applyLanguage(lang) {
+            document.querySelectorAll('[data-i18n]').forEach(el => {
+                const key = el.getAttribute('data-i18n');
+                if (translations[lang] && translations[lang][key]) el.textContent = translations[lang][key];
+            });
+            document.title = translations[lang]['title'] || document.title;
+            const langBtn = document.getElementById('langToggle');
+            if (langBtn) langBtn.textContent = lang === 'ar' ? 'English' : 'العربية';
+            const metaDesc = document.querySelector('meta[name="description"]');
+            if (metaDesc && translations[lang]['hero-desc']) metaDesc.setAttribute('content', translations[lang]['hero-desc']);
+            localStorage.setItem('lang', lang);
+            currentLang = lang;
+        }
+
+        function switchLanguageWithAnimation(newLang) {
+            document.body.classList.add('translating');
+            setTimeout(() => {
+                applyLanguage(newLang);
+                document.documentElement.lang = newLang;
+                document.documentElement.dir = newLang === 'ar' ? 'rtl' : 'ltr';
+                requestAnimationFrame(() => document.body.classList.remove('translating'));
+            }, 200);
+        }
+
+        document.getElementById('langToggle').addEventListener('click', () => {
+            const newLang = currentLang === 'ar' ? 'en' : 'ar';
+            switchLanguageWithAnimation(newLang);
+        });
+        applyLanguage(currentLang);
+
+        // Sidebar
+        const sidebar = document.getElementById('sidebar');
+        const overlay = document.getElementById('menuOverlay');
+        const menuBtn = document.getElementById('menuBtn');
+        const closeBtn = document.getElementById('closeMenu');
+        const body = document.body;
+
+        function openMenu() {
+            sidebar.classList.add('open'); overlay.classList.remove('hidden'); overlay.setAttribute('aria-hidden', 'false');
+            body.classList.add('menu-open'); menuBtn.setAttribute('aria-expanded', 'true');
+            const firstLink = sidebar.querySelector('a'); if (firstLink) setTimeout(() => firstLink.focus(), 100);
+        }
+        function closeMenu() {
+            sidebar.classList.remove('open'); overlay.classList.add('hidden'); overlay.setAttribute('aria-hidden', 'true');
+            body.classList.remove('menu-open'); menuBtn.setAttribute('aria-expanded', 'false'); menuBtn.focus();
+        }
+        menuBtn.addEventListener('click', openMenu);
+        closeBtn.addEventListener('click', closeMenu);
+        overlay.addEventListener('click', closeMenu);
+        sidebar.querySelectorAll('a').forEach(link => link.addEventListener('click', closeMenu));
+        sidebar.addEventListener('click', (e) => e.stopPropagation());
+        document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && sidebar.classList.contains('open')) closeMenu(); });
+
+        // Counter animation
+        const counters = document.querySelectorAll('.counter');
+        let countersAnimated = false;
+        function animateCounters() {
+            if (countersAnimated) return; countersAnimated = true;
+            counters.forEach(counter => {
+                const target = parseInt(counter.getAttribute('data-target'), 10);
+                if (isNaN(target)) return;
+                const duration = 2000, startTime = performance.now();
+                function updateCounter(now) {
+                    const elapsed = now - startTime, progress = Math.min(elapsed / duration, 1);
+                    const eased = 1 - Math.pow(1 - progress, 3);
+                    counter.textContent = Math.round(target * eased);
+                    if (progress < 1) requestAnimationFrame(updateCounter);
+                    else counter.textContent = target;
+                }
+                requestAnimationFrame(updateCounter);
+            });
+        }
+        const statsSection = document.getElementById('stats-section');
+        if (statsSection) {
+            new IntersectionObserver((entries) => {
+                entries.forEach(entry => { if (entry.isIntersecting && !countersAnimated) { setTimeout(animateCounters, 300); } });
+            }, { threshold: 0.3 }).observe(statsSection);
+        }
+
+        // Navbar shadow
+        window.addEventListener('scroll', () => {
+            const nav = document.getElementById('navbar');
+            if (window.scrollY > 50) { nav.classList.add('shadow-xl'); nav.classList.remove('shadow-lg'); }
+            else { nav.classList.remove('shadow-xl'); nav.classList.add('shadow-lg'); }
+        }, { passive: true });
+    </script>
+</body>
+</html>
